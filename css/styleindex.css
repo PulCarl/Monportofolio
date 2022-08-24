@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/* Base Styles –––––––––––––––––––––––––––––––––––––––––––––––––– */
+body {
+     font-family: 'Oswald', sans-serif;
+     background-color: #D2D2D2;
+}
+.titre{
+  position: absolute;
+color: #D2D2D2;
+  font-size : 96px;
+  top:250px;
+  left:300px;
+  animation: titre 2s  infinite alternate;
+}
+@keyframes titre {
+ 0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow:
+    0 0 3px #fff,
+    0 0 5px #fff,
+    0 0 42px rgb(255, 255, 255),
+    0 0 77px rgb(255, 255, 255),
+    0 0 100px rgb(255, 255, 255);
+ }
+   20%, 24%, 55% {
+     text-shadow:none;
+   }
+}
+.titre2{
+  position: absolute;
+color: #57AAE5;
+  font-size : 96px;
+  top:340px;
+  left:440px;
+}
+.titre3{
+  position: absolute;
+color: #000000;
+  font-size : 96px;
+  top:420px;
+  left:300px;
+}
+.elis{
+position: absolute;
+width: 61px;
+height: 59px;
+top:400px;
+right: 70px;
+border-radius: 50px;
+background: #57AAE5;
+}
+.elis i{
+  position: relative;
+  top: 15px;
+  left:15px;
+  font-size:30px;
+}
