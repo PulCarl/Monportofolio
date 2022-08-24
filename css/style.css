@@ -121,6 +121,7 @@ background: #57AAE5;
   font-size:60px;
   top:17px;
   left:15px;
+  text-align: center;
 }
 .contact p{
   position: absolute;
